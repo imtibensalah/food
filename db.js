@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 
-const mongoURL = 'mongodb+srv//imtiyezbensalah:imtiyez123@food.wmqboqg.mongodb.net/';
+const mongoURL = 'mongodb+srv://imtiyezbensalah:imtiyez123@food.wmqboqg.mongodb.net/';
 
-mongoose.connect(mongoURL, { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect(mongoURL, { useNewUrlParser: true , useUnifiedTopology: true });
 
 var db = mongoose.connection;
 

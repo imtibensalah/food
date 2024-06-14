@@ -1,6 +1,7 @@
 import React, {useState}from 'react';
 import { Modal } from 'react-bootstrap';
 import pizzas from '../pizzadata';
+
 export default function Pizza({pizza}) {
     const [quantity , setquantity]=useState(1)
     const [varients , setvarients]=useState('small')

@@ -6,7 +6,7 @@ switch (action.type)
         ...state
     }
     case 'GET_PIZZAS_SUCCESS': return{
-        loading: false,
+        loading : false,
         pizzas: action.payload
     }
     case 'GET_PIZZAS_FAILED' : return {
